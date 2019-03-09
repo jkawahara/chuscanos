@@ -12,7 +12,7 @@ class App extends Component {
             Christine Chu & Salvador Toscano
           </p>
           <p>
-            May 25, 2019!
+            May 26, 2019!
           </p>
           <p>
             More to come...
