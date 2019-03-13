@@ -1,23 +1,27 @@
 import React, { Component } from 'react';
-import splashpic from './splashpic.jpg';
-import './App.css';
+import Nav from "./components/Nav";
+// import Splash from "./components/Splash";
+// import Story from "./components/Story";
+// import Timing from "./components/Timing";
+// import Events from "./components/Events";
+// import Gallery from "./components/Gallery";
+// import Registry from "./components/Registry";
+// import Rsvp from "./components/Rsvp";
+import splashpic from "./splashpic.jpeg";
+import "./App.css";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={splashpic} alt="splashpic" />
-          <p>
-            Christine Chu & Salvador Toscano
-          </p>
-          <p>
-            May 26, 2019!
-          </p>
-          <p>
-            More to come...
-          </p>
-        </header>
+      <div>
+        <Nav />
+        {/* <Splash />
+        <Story />
+        <Timing />
+        <Events />
+        <Gallery />
+        <Registry />
+        <Rsvp /> */}
       </div>
     );
   }
