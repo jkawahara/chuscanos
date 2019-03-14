@@ -1,0 +1,10 @@
+#splash {
+  background-image: url(./splashpic.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-position-y: 50px;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 400px;
+  text-align: center;
+}
