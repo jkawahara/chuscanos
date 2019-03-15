@@ -2,7 +2,7 @@
   background-image: url(./splashpic.jpeg);
   background-size: cover;
   background-position: center;
-  background-position-y: 180px;
+  background-position-y: 250px;
   background-repeat: no-repeat;
   width: auto;
   height: 700px;
@@ -10,7 +10,7 @@
 }
 
 #titlesplash {
-  padding-top: 20px;
+  padding-top: 60px;
   font-family: 'Great Vibes', cursive;
   font-weight: 400;
   font-size: 2em;
