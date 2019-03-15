@@ -7,7 +7,7 @@ import Story from "./components/Story";
 import Events from "./components/Events";
 // import Gallery from "./components/Gallery";
 import Registry from "./components/Registry";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 
 import Rsvp from "./components/Rsvp";
 // import Footer from "./components/Footer";
@@ -43,7 +43,11 @@ class App extends Component {
             <Events />
           </Col>
         </Row>
-        {/* <Gallery /> */}
+        {/* <Row>
+          <Col>
+            <Gallery />
+          </Col>
+        </Row> */}
         <Row>
           <Col>
             <Registry />
@@ -54,7 +58,11 @@ class App extends Component {
             <Rsvp />
           </Col>
         </Row>
-        {/* <Footer /> */}
+        <Row>
+          <Col>
+            <Footer />
+          </Col>
+        </Row>
       </Container>
     );
   }
