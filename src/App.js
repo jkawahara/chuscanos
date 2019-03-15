@@ -3,11 +3,12 @@ import React, { Component } from 'react';
 import Nav from "./components/Nav";
 import Timing from "./components/Timing";
 import Splash from "./components/Splash";
-// import Story from "./components/Story";
+import Story from "./components/Story";
 // import Events from "./components/Events";
 // import Gallery from "./components/Gallery";
 // import Registry from "./components/Registry";
 import Rsvp from "./components/Rsvp";
+// import Footer from "./components/Footer";
 import "./App.css";
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -32,13 +33,18 @@ class App extends Component {
         </Row>
         <Row>
           <Col>
-            <Rsvp />
+            <Story />
           </Col>
         </Row>
-        {/* <Story /> */}
         {/* <Events /> */}
         {/* <Gallery /> */}
         {/* <Registry /> */}
+        <Row>
+          <Col>
+            <Rsvp />
+          </Col>
+        </Row>
+        {/* <Footer /> */}
       </Container>
     );
   }
