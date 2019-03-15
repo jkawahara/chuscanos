@@ -1,0 +1,17 @@
+#gallery {
+  /* background-image: url(./ivy.jpeg); */
+  background-size: cover;
+  background-position: center;
+  background-position-y: 150px;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 700px;
+  text-align: center;
+}
+
+#titlegallery {
+  padding-top: 60px;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  font-size: 1.5em;
+}

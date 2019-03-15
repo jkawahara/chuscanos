@@ -5,7 +5,7 @@ import Timing from "./components/Timing";
 import Splash from "./components/Splash";
 import Story from "./components/Story";
 import Events from "./components/Events";
-// import Gallery from "./components/Gallery";
+import Gallery from "./components/Gallery";
 import Registry from "./components/Registry";
 import Footer from "./components/Footer";
 
@@ -43,11 +43,11 @@ class App extends Component {
             <Events />
           </Col>
         </Row>
-        {/* <Row>
+        <Row>
           <Col>
             <Gallery />
           </Col>
-        </Row> */}
+        </Row>
         <Row>
           <Col>
             <Registry />
