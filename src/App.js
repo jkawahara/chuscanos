@@ -6,7 +6,8 @@ import Splash from "./components/Splash";
 import Story from "./components/Story";
 import Events from "./components/Events";
 // import Gallery from "./components/Gallery";
-// import Registry from "./components/Registry";
+import Registry from "./components/Registry";
+// import Footer from "./components/Footer";
 
 import Rsvp from "./components/Rsvp";
 // import Footer from "./components/Footer";
@@ -43,7 +44,11 @@ class App extends Component {
           </Col>
         </Row>
         {/* <Gallery /> */}
-        {/* <Registry /> */}
+        <Row>
+          <Col>
+            <Registry />
+          </Col>
+        </Row>
         <Row>
           <Col>
             <Rsvp />
