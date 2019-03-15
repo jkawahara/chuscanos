@@ -7,11 +7,11 @@ import Nav from "react-bootstrap/Nav";
 class Navigation extends Component {
   render () {
     return (
-      <Navbar fixed="top" collapseOnSelect expand="sm" bg="dark" variant="dark">
+      <Navbar id="navbar" fixed="top" collapseOnSelect expand="sm">
         <Navbar.Brand href="#home">Christine & Salvador</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto">
+          <Nav className="ml-auto">
             <Nav.Link href="#timing">Timing</Nav.Link>
             <Nav.Link href="#splash">Splash</Nav.Link>
             <Nav.Link href="#story">Story</Nav.Link>

@@ -8,7 +8,11 @@ class Splash extends Component {
     return (
       <Container id="splash">
         <Row>
-          <Col id="textname">Christine Joyce Chu & Salvador Nu&ntilde;o Toscano</Col>
+          <Col id="titlesplash">
+            Christine Joyce Chu<br></br>
+            and<br></br>
+            Salvador Nu&ntilde;o Toscano
+          </Col>
         </Row>
       </Container>
     );

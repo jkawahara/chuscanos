@@ -8,7 +8,7 @@ class Story extends Component {
     return (
       <Container id="story">
         <Row>
-          <Col id="titlestory">The Story</Col>
+          <Col id="titlestory">Their Story</Col>
         </Row>
       </Container>
     );

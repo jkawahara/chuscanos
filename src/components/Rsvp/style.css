@@ -1,7 +1,15 @@
 #rsvp {
-  margin-top: 50px;
+  
 }
 
 .forminput {
   background-color: transparent;
+}
+
+#titlersvp {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  font-size: 1.5em;
 }

@@ -7,6 +7,7 @@ import Story from "./components/Story";
 // import Events from "./components/Events";
 // import Gallery from "./components/Gallery";
 // import Registry from "./components/Registry";
+
 import Rsvp from "./components/Rsvp";
 // import Footer from "./components/Footer";
 import "./App.css";

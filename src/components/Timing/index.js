@@ -21,13 +21,13 @@ class Timing extends Component {
   }
 
   render() {
-    const dateInFuture = moment('2019-05-26 15:30:00', 'YYYY-MM-DD HH:mm:ss');
+    const dateInFuture = moment('2019-05-26 15:30', 'YYYY-MM-DD HH:mm');
 
     return (
       <Container id="timing">
         <Row>
           <Col>
-            <p>Save Our Wedding Date</p>
+            <p id="titletiming">Together With Their Families</p>
             <p>
               Sunday, The Twenty-Sixth Of May<br></br>
               Two Thousand Nineteen<br></br>
@@ -39,7 +39,7 @@ class Timing extends Component {
           <Col></Col>
         </Row>
         <Row>
-          <Col sm={{ span: 2, offset: 2 }}>
+          <Col sm={{ span: 1, offset: 5 }}>
             <ReactMomentCountDown toDate={dateInFuture}
               targetFormatMask='DD'
               onTick={this.sampleOnTick}
@@ -47,29 +47,13 @@ class Timing extends Component {
             /><br></br>
             Days
           </Col> 
-          <Col sm={2}>
+          <Col sm={1}>
             <ReactMomentCountDown toDate={dateInFuture}
               targetFormatMask='HH'
               onTick={this.sampleOnTick}
               onCountdownEnd={this.sampleOnCountdownEnd}
             /><br></br>
             Hours
-          </Col> 
-          <Col sm={2}>
-            <ReactMomentCountDown toDate={dateInFuture}
-              targetFormatMask='mm'
-              onTick={this.sampleOnTick}
-              onCountdownEnd={this.sampleOnCountdownEnd}
-            /><br></br>
-            Minutes
-          </Col> 
-          <Col sm={2}>
-            <ReactMomentCountDown toDate={dateInFuture}
-              targetFormatMask='ss'
-              onTick={this.sampleOnTick}
-              onCountdownEnd={this.sampleOnCountdownEnd}
-            /><br></br>
-            Seconds
           </Col> 
         </Row>
       </Container>

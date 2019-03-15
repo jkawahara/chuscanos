@@ -2,16 +2,16 @@
   background-image: url(./splashpic.jpeg);
   background-size: cover;
   background-position: center;
-  background-position-y: 25px;
+  background-position-y: 180px;
   background-repeat: no-repeat;
   width: auto;
-  height: 400px;
+  height: 700px;
   text-align: center;
 }
 
-#textname {
-  margin-top: 400px;
-  font-family: 'League Script', cursive;
-  font-weight: 900;
-  font-size: 1.5em;
+#titlesplash {
+  padding-top: 20px;
+  font-family: 'Great Vibes', cursive;
+  font-weight: 400;
+  font-size: 2em;
 }

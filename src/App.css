@@ -1,4 +1,16 @@
-.App {
+.mainapp {
+  margin-top: 40px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  background-size: cover;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -22,22 +34,35 @@
   color: #61dafb;
 }
 
-.mainapp {
-  margin-top: 55px;
-  margin-left: 0px;
-  margin-right: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
-  text-align: center;
-  font-family: 'Libre Baskerville', serif;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+} */
+
+@media only screen and (min-width: 992px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .container {
+    max-width: 100%;
   }
 }

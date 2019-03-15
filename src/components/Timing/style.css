@@ -1,0 +1,16 @@
+#timing {
+  background-image: url(./flowers.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 320px;
+  text-align: center;
+}
+
+#titletiming {
+  padding-top: 80px;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  font-size: 1.5em;
+}
