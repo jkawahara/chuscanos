@@ -1,16 +1,16 @@
 #registry {
-  /* background-image: url(./ivy.jpeg); */
+  background-image: url(./registry.png);
   background-size: cover;
-  background-position: center;
-  background-position-y: 150px;
+  background-position: left;
+  background-position-y: 0px;
   background-repeat: no-repeat;
   width: auto;
-  height: 280px;
+  height: 200px;
   text-align: center;
 }
 
 #titleregistry {
-  padding-top: 60px;
+  padding-top: 90px;
   font-family: 'Libre Baskerville', serif;
   font-weight: 400;
   font-size: 1.5em;

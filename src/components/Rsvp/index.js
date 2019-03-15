@@ -13,7 +13,7 @@ class Rsvp extends Component {
         <Row>
           <Col>
             <Form action="https://formspree.io/jjshon@gmail.com" method="POST">
-              <Row>
+              <Row className="forminputs">
                 <Col sm={{ span: 4, offset: 1 }}>
                   <Form.Control className="forminput border border-secondary" type="string" placeholder="First & Last Name" name="Name" required />
                   <Form.Control className="forminput border border-secondary" type="number" placeholder="Number Attending" name="Number Attending" />        

@@ -39,7 +39,16 @@ class Timing extends Component {
           <Col></Col>
         </Row>
         <Row>
-          <Col sm={{ span: 1, offset: 5 }}>
+          <Col sm={{ span: 2, offset: 5 }}>
+            <ReactMomentCountDown toDate={dateInFuture}
+              targetFormatMask='DD'
+              onTick={this.sampleOnTick}
+              onCountdownEnd={this.sampleOnCountdownEnd}
+            /><br></br>
+            <p>Weeks</p>
+            To Go
+          </Col> 
+          {/* <Col sm={{ span: 1, offset: 5 }}>
             <ReactMomentCountDown toDate={dateInFuture}
               targetFormatMask='DD'
               onTick={this.sampleOnTick}
@@ -54,7 +63,7 @@ class Timing extends Component {
               onCountdownEnd={this.sampleOnCountdownEnd}
             /><br></br>
             Hours
-          </Col> 
+          </Col>  */}
         </Row>
       </Container>
       

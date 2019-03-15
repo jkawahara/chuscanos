@@ -9,7 +9,7 @@ class Events extends Component {
       <Container id="events">
         <Row>
           <Col id="titleevents">
-            Events
+            <a href="https://goo.gl/maps/7WqyNjpPUuB2">Events</a>
           </Col>
         </Row>
         <Row>
@@ -34,6 +34,11 @@ class Events extends Component {
               Burlingame, California
             </p>
           </Col>
+        </Row>
+        <Row id="map">
+          {/* <img src={require("./eventsmap.png")} alt="eventsmap"
+          /> */}
+          {/* <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d6872.131726760218!2d-122.38290358291239!3d37.582728227229666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x808f763a022577f5%3A0xa37412bde980bf1f!2sOur+Lady+of+Angels+Catholic%2C+Hillside+Drive%2C+Burlingame%2C+CA!3m2!1d37.5857534!2d-122.3731976!4m5!1s0x808f7646226cbc9b%3A0x177573ace0ad329f!2sKohl+Mansion%2C+Burlingame%2C+CA!3m2!1d37.582864!2d-122.3831415!5e0!3m2!1sen!2sus!4v1552705962307" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> */}
         </Row>
       </Container>
     );

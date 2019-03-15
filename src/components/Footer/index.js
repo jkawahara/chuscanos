@@ -12,6 +12,9 @@ class Footer extends Component {
             Contact Us
           </Col>
         </Row>
+        <Row>
+          <Col>More to come..</Col>
+        </Row>
       </Container>
     );
   }

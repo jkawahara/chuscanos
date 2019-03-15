@@ -9,7 +9,7 @@ class Registry extends Component {
       <Container id="registry">
         <Row>
           <Col id="titleregistry">
-            Registry
+            <a href="https://www.myregistry.com/wedding-registry/Christine-Chu-and-Salvador-Toscano-Davis-CA/1859929">Registry</a>
           </Col>
         </Row>
       </Container>

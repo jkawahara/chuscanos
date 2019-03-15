@@ -1,17 +1,25 @@
 #gallery {
-  /* background-image: url(./ivy.jpeg); */
-  background-size: cover;
-  background-position: center;
-  background-position-y: 150px;
-  background-repeat: no-repeat;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
   width: auto;
-  height: 700px;
+  height: 1200px;
   text-align: center;
+  padding: 40px;
 }
 
 #titlegallery {
-  padding-top: 60px;
+  padding-top: 20px;
   font-family: 'Libre Baskerville', serif;
   font-weight: 400;
   font-size: 1.5em;
+}
+
+#carousel {
+  position: relative;
+  top: 60px;
+  width: auto;
+  height: auto;
+}
+
+.carousel .carousel-indicators {
+  display: none;
 }

@@ -10,6 +10,9 @@ class Story extends Component {
         <Row>
           <Col id="titlestory">Their Story</Col>
         </Row>
+        <Row>
+          <Col>More to come..</Col>
+        </Row>
       </Container>
     );
   }
