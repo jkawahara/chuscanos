@@ -7,7 +7,7 @@ import Nav from "react-bootstrap/Nav";
 class Navigation extends Component {
   render () {
     return (
-      <Navbar id="navbar" fixed="top" collapseOnSelect expand="sm">
+      <Navbar id="navbar" fixed="top" collapseOnSelect expand="md">
         <Navbar.Brand href="#home">Christine & Salvador</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

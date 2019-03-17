@@ -8,6 +8,7 @@
   background-size: cover;
   text-align: center;
   font-family: 'Libre Baskerville', serif;
+  overflow: hidden;
 }
 
 /* .App {
