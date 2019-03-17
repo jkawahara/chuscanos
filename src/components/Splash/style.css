@@ -5,7 +5,7 @@
   background-position-y: 250px;
   background-repeat: no-repeat;
   width: auto;
-  height: 700px;
+  height: 1000px;
   text-align: center;
 }
 
@@ -14,4 +14,28 @@
   font-family: 'Great Vibes', cursive;
   font-weight: 400;
   font-size: 2em;
+}
+
+@media only screen and (max-width: 992px) {
+  #splash {
+    height: 700px;
+  }  
+}
+
+@media only screen and (max-width: 768px) {
+  #splash {
+    height: 550px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #splash {
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #splash {
+    height: 450px;
+  }
 }
