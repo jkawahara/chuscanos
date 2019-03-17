@@ -41,7 +41,7 @@ class Timing extends Component {
         <Row>
           <Col sm={{ span: 2, offset: 5 }}>
             <ReactMomentCountDown toDate={dateInFuture}
-              targetFormatMask='DD'
+              targetFormatMask='WW'
               onTick={this.sampleOnTick}
               onCountdownEnd={this.sampleOnCountdownEnd}
             /><br></br>
