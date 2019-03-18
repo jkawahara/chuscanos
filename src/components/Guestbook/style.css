@@ -1,0 +1,35 @@
+#guestbook {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+#titleguestbook {
+  padding-top: 60px;
+  padding-bottom: 20px;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+#titlesign {
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.5em;
+  padding-bottom: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+#signbutton {
+  margin-bottom: 20px;
+}
+
+#thoughts {
+  max-height: 850px;
+  overflow: hidden;
+  border: 10px solid skyblue;
+  box-shadow: 0px 0px 10px 2px skyblue;
+  padding: 0px;
+  text-align: left;
+}
