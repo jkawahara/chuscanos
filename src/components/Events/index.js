@@ -17,7 +17,7 @@ class Events extends Component {
             <p id="ceremony">Ceremony</p>
             <p>Half Past Three In The Afternoon</p>
             <p>
-              Our Lady of Angels<br></br>
+              <a href="https://www.ola.community/">Our Lady of Angels</a><br></br>
               1721 Hillside Drive<br></br>
               Burlingame, California
             </p>
@@ -31,7 +31,7 @@ class Events extends Component {
             </p>
             <p>Half Past Five In The Afternoon</p>
             <p>
-              Kohl Mansion<br></br>
+              <a href="https://kohlmansion.com/">Kohl Mansion</a><br></br>
               2750 Adeline Drive<br></br>
               Burlingame, California
             </p>
