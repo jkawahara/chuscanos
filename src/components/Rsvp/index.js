@@ -12,7 +12,7 @@ class Rsvp extends Component {
         </Row>
         <Row>
           <Col>
-            <Form action="https://formspree.io/jjshon@gmail.com" method="POST">
+            <Form action="https://formspree.io/cjchu@gene.com" method="POST">
               <Row className="forminputs">
                 <Col sm={{ span: 6, offset: 3 }}>
                   <p>
