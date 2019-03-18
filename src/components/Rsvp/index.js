@@ -41,7 +41,7 @@ class Rsvp extends Component {
                   </Form.Group>
                 </Col>
                 <Col sm={2}>
-                  <Button variant="outline-secondary" type="submit">
+                  <Button variant="primary" type="submit">
                     Submit
                   </Button>
                 </Col>
