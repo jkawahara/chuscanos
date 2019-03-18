@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/events.cb00f43f.jpg"
   },
   {
-    "revision": "d5da1c68497b36e4905b",
-    "url": "/static/css/main.2df37f99.chunk.css"
+    "revision": "626358ff439774b3c04b",
+    "url": "/static/css/main.f0f23cfb.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/media/registry.fd67ddc1.png"
   },
   {
-    "revision": "89b341deb6fce20e16f6",
-    "url": "/static/js/2.89b341de.chunk.js"
+    "revision": "18fdb472e6d1ea6ddb61",
+    "url": "/static/js/2.18fdb472.chunk.js"
   },
   {
     "revision": "2a5cac3eeb1491a173b7f145babec4fe",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/static/media/ivy.6529406c.jpeg"
   },
   {
-    "revision": "d5da1c68497b36e4905b",
-    "url": "/static/js/main.d5da1c68.chunk.js"
+    "revision": "626358ff439774b3c04b",
+    "url": "/static/js/main.626358ff.chunk.js"
   },
   {
     "revision": "5e12b64989a2b9ff250db6778d9cf2fc",
@@ -60,11 +60,11 @@ self.__precacheManifest = [
     "url": "/static/media/christinewayback.37dcb7e5.jpg"
   },
   {
-    "revision": "89b341deb6fce20e16f6",
+    "revision": "18fdb472e6d1ea6ddb61",
     "url": "/static/css/2.69f013bb.chunk.css"
   },
   {
-    "revision": "315ef23556131ec733a8d2cfa4694fd2",
+    "revision": "c4716937181291a572db4c66c51c6ef1",
     "url": "/index.html"
   }
 ];
