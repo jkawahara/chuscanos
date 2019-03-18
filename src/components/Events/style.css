@@ -5,12 +5,13 @@
   background-position-y: 150px;
   background-repeat: no-repeat;
   width: auto;
-  height: 800px;
+  height: 960px;
   text-align: center;
 }
 
 #titleevents {
   padding-top: 60px;
+  padding-bottom: 60px;
   font-family: 'Libre Baskerville', serif;
   font-weight: 400;
   font-size: 1.5em;
@@ -19,7 +20,7 @@
 #ceremony, #reception {
   font-family: 'Great Vibes', cursive;
   font-size: 1.5em;
-  padding-top: 260px;
+  padding-top: 60px;
 }
 
 #map {

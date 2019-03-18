@@ -3,13 +3,14 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: auto;
-  height: 420px;
+  /* width: auto;
+  height: auto; */
   text-align: center;
+  padding-bottom: 60px;
 }
 
 #titletiming {
-  padding-top: 110px;
+  padding-top: 80px;
   font-family: 'Libre Baskerville', serif;
   font-weight: 400;
   font-size: 1.5em;

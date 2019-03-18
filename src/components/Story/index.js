@@ -11,7 +11,7 @@ class Story extends Component {
           <Col id="titlestory">Their Story</Col>
         </Row>
         <Row>
-          <Col>More to come..</Col>
+          <Col>Sal is reflecting...</Col>
         </Row>
       </Container>
     );

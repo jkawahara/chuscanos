@@ -22,6 +22,8 @@ class Events extends Component {
               Burlingame, California
             </p>
           </Col>
+        </Row>
+        <Row>
           <Col>
             <p id="reception">
               Reception<br></br>
@@ -31,6 +33,19 @@ class Events extends Component {
             <p>
               Kohl Mansion<br></br>
               2750 Adeline Drive<br></br>
+              Burlingame, California
+            </p>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <p id="reception">
+              Accommodations<br></br>
+              Overnight
+            </p>
+            <p>
+              TBD<br></br>
+              TBD<br></br>
               Burlingame, California
             </p>
           </Col>
