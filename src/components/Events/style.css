@@ -4,9 +4,10 @@
   background-position: center;
   background-position-y: 150px;
   background-repeat: no-repeat;
-  width: auto;
-  height: 960px;
+  /* width: auto;
+  height: 960px; */
   text-align: center;
+  padding-bottom: 60px;
 }
 
 #titleevents {
