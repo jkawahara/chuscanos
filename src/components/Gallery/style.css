@@ -11,6 +11,22 @@
   font-size: 1.5em;
 }
 
+#titlefile {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#uploadedimg {
+  padding-bottom: 20px;
+  max-width: 320px;
+  
+}
+
+#fileselect {
+  margin-top: 10px;
+  width: 80%;
+}
+
 #carousel {
   position: relative;
   top: 60px;
