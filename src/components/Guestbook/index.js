@@ -83,18 +83,18 @@ class Guestbook extends Component {
                         <Table responsive>
                           <thead>
                             <tr>
-                              <th sm={1} >Date</th>
-                              <th>Name</th>
+                              <th sm={1} >Name</th>
                               <th>Thoughts</th>
+                              <th>Date</th>
                             </tr>
                           </thead>
                           <tbody>
                             {
                               this.state.signatures.map(
                                 signature => <tr key={signature.id}>
-                                  <td>{signature.text.time}</td>
                                   <td>{signature.text.name}</td>
                                   <td>{signature.text.thought}</td>
+                                  <td>{signature.text.time}</td>
                                 </tr>
                               )
                             }
