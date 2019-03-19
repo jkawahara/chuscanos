@@ -43,10 +43,10 @@ class Events extends Component {
               Accommodations Overnight<br></br>
             </p>
             <p>
-              It means the world to us to have you at our celebration. For your convenience negotiated group hotel rates have been identified and available for booking via the link below. We are anxious for the days to pass where we can smile, laugh, wine, and dine the weekend away!
+              <a href="https://groups.hotels.com/Search/?locale=en_US&City=2750%20Adeline%20Dr%2C%20Burlingame%2C%20CA%2094010%2C%20USA&Latitude=37.5826519&Longitude=-122.3830636&InDate=05/25/2019&OutDate=05/27/2019&gid=5131452&NumRooms=1&sc=HotelsCom-EN&kw=eventpage&_hp=3172019211934#search/2750%20Adeline%20Dr%2C%20Burlingame%2C%20CA%2094010/none/none/05-25-2019/05-27-2019/default/ASC/ASC/ASC/0/none/none/none/0/0/0/0/0/0/0/0/0/0/0/0/0/none/none/0/5/37.5826519/-122.3830636/2750%20Adeline%20Dr%2C%20Burlingame%2C%20CA%2094010%2C%20USA/1/0/0/0/1/1/results/0/">Chu_Toscano Hotel Bookings Link</a>
             </p>
             <p>
-              <a href="https://groups.hotels.com/Search/?locale=en_US&City=2750%20Adeline%20Dr%2C%20Burlingame%2C%20CA%2094010%2C%20USA&Latitude=37.5826519&Longitude=-122.3830636&InDate=05/25/2019&OutDate=05/27/2019&gid=5131452&NumRooms=1&sc=HotelsCom-EN&kw=eventpage&_hp=3172019211934#search/2750%20Adeline%20Dr%2C%20Burlingame%2C%20CA%2094010/none/none/05-25-2019/05-27-2019/default/ASC/ASC/ASC/0/none/none/none/0/0/0/0/0/0/0/0/0/0/0/0/0/none/none/0/5/37.5826519/-122.3830636/2750%20Adeline%20Dr%2C%20Burlingame%2C%20CA%2094010%2C%20USA/1/0/0/0/1/1/results/0/">Chu_Toscano Hotel Bookings Link</a>
+              It means the world to us to have you at our celebration. For your convenience negotiated group hotel rates have been identified and available for booking via this <a href="https://groups.hotels.com/Search/?locale=en_US&City=2750%20Adeline%20Dr%2C%20Burlingame%2C%20CA%2094010%2C%20USA&Latitude=37.5826519&Longitude=-122.3830636&InDate=05/25/2019&OutDate=05/27/2019&gid=5131452&NumRooms=1&sc=HotelsCom-EN&kw=eventpage&_hp=3172019211934#search/2750%20Adeline%20Dr%2C%20Burlingame%2C%20CA%2094010/none/none/05-25-2019/05-27-2019/default/ASC/ASC/ASC/0/none/none/none/0/0/0/0/0/0/0/0/0/0/0/0/0/none/none/0/5/37.5826519/-122.3830636/2750%20Adeline%20Dr%2C%20Burlingame%2C%20CA%2094010%2C%20USA/1/0/0/0/1/1/results/0/">link</a>. We are anxious for the days to pass where we can smile, laugh, wine, and dine the weekend away!
             </p>
           </Col>
         </Row>
