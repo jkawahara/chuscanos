@@ -1,5 +1,7 @@
 // *** Firebase RT DB configuration
-import firebase from 'firebase'
+import * as firebase from 'firebase/app';
+import 'firebase/database';
+import 'firebase/storage';
 
 // Initialize Firebase
 var config = {

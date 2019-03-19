@@ -31,12 +31,10 @@ class Footer extends Component {
               </Row>
               <Row> 
                 <Col sm={{ span: 6, offset: 3 }}>
-                  <p>
-                    <Form.Group controlId="exampleForm.ControlTextarea1">
-                      {/* <Form.Label>Message...</Form.Label> */}
-                      <Form.Control as="textarea" rows="6" className="forminput border border-secondary" name="Message" placeholder="Message..." required />
-                    </Form.Group>
-                  </p>
+                  <Form.Group controlId="exampleForm.ControlTextarea1">
+                    {/* <Form.Label>Message...</Form.Label> */}
+                    <Form.Control as="textarea" rows="6" className="forminput border border-secondary" name="Message" placeholder="Message..." required />
+                  </Form.Group>
                 </Col>
               </Row>
               <Row>

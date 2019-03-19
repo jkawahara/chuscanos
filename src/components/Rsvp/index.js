@@ -31,7 +31,7 @@ class Rsvp extends Component {
                 <Col sm={{ span: 6, offset: 3 }}>
                   <Form.Group as={Row}>
                     <Col>
-                      <p>
+                      <Form.Group>
                         <Form.Check className="formradio"
                           type="radio"
                           label="Accepts With Pleasure"
@@ -40,8 +40,8 @@ class Rsvp extends Component {
                           id="formHorizontalRadios1"
                           required
                         />
-                      </p>
-                      <p>
+                      </Form.Group>
+                      <Form.Group>
                         <Form.Check
                           type="radio"
                           label="Declines With Regret"
@@ -50,7 +50,7 @@ class Rsvp extends Component {
                           id="formHorizontalRadios2"
                           required
                         />
-                      </p>
+                      </Form.Group>
                     </Col>
                   </Form.Group>
                 </Col>

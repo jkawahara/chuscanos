@@ -1,7 +1,7 @@
 // *** Story component
 import React, { Component } from 'react';
 import "./style.css";
-import { Container, Row, Col, Carousel, Form, Button } from "react-bootstrap";
+import { Container, Row, Col, Carousel } from "react-bootstrap";
 
 class Gallery extends Component {
   render() {

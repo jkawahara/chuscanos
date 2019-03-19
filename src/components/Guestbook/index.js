@@ -62,11 +62,9 @@ class Guestbook extends Component {
               </Row>
               <Row> 
                 <Col sm={{ span: 6, offset: 3 }}>
-                  <p>
-                    <Form.Group controlId="exampleForm.ControlTextarea1">
-                      <Form.Control as="textarea" rows="1" maxLength={300} className="forminput border border-secondary" type="string" ref={ thought => this.inputThought = thought } name="Thought" placeholder="Leave a thought..." />
-                    </Form.Group>
-                  </p>
+                  <Form.Group controlId="exampleForm.ControlTextarea1">
+                    <Form.Control as="textarea" rows="1" maxLength={300} className="forminput border border-secondary" type="string" ref={ thought => this.inputThought = thought } name="Thought" placeholder="Leave a thought..." />
+                  </Form.Group>
                 </Col>
               </Row>
               <Row>
