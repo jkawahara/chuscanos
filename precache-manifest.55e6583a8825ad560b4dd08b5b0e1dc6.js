@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/Damian Chris and me.49089572.jpg"
   },
   {
-    "revision": "23799f9f14fc36829790",
-    "url": "/static/css/main.511fbcbe.chunk.css"
+    "revision": "9c5a943f8a471f5bac0f",
+    "url": "/static/css/main.5085fea8.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/media/registry.fd67ddc1.png"
   },
   {
-    "revision": "ee56f40217f8bc8eda89",
-    "url": "/static/js/2.ee56f402.chunk.js"
+    "revision": "a1df5fb62ce61e088de9",
+    "url": "/static/js/2.a1df5fb6.chunk.js"
   },
   {
     "revision": "2a5cac3eeb1491a173b7f145babec4fe",
@@ -80,6 +80,10 @@ self.__precacheManifest = [
     "url": "/static/media/globe.2cfc1b87.png"
   },
   {
+    "revision": "93d29b60ce17900442310dcdaf5e5f0d",
+    "url": "/static/media/snowboarding.93d29b60.jpg"
+  },
+  {
     "revision": "d7b31af15fcb2f55c736fad7b253536e",
     "url": "/static/media/toscanos.d7b31af1.jpg"
   },
@@ -92,8 +96,8 @@ self.__precacheManifest = [
     "url": "/static/media/442JPG.0d5b4061.jpg"
   },
   {
-    "revision": "23799f9f14fc36829790",
-    "url": "/static/js/main.23799f9f.chunk.js"
+    "revision": "9c5a943f8a471f5bac0f",
+    "url": "/static/js/main.9c5a943f.chunk.js"
   },
   {
     "revision": "abc8a71f1af92243b8d12a100fb7db33",
@@ -180,11 +184,11 @@ self.__precacheManifest = [
     "url": "/static/media/dopey.2746f7fd.jpg"
   },
   {
-    "revision": "ee56f40217f8bc8eda89",
+    "revision": "a1df5fb62ce61e088de9",
     "url": "/static/css/2.69f013bb.chunk.css"
   },
   {
-    "revision": "b55720d3681b8da4df71d8b91736b7fc",
+    "revision": "d77c25660a2b7648ac64ac319b3f258d",
     "url": "/index.html"
   }
 ];
