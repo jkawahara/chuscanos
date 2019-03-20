@@ -8,7 +8,7 @@ class Rsvp extends Component {
     return (
       <Container id="rsvp">
         <Row>
-          <Col id="titlersvp">RSVP Response By The Eleventh Of April</Col>
+          <Col id="titlersvp">RSVP Response By The Eleventh Of April, by Invitation</Col>
         </Row>
         <Row>
           <Col>
