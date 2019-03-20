@@ -6,12 +6,21 @@ import firebase from "firebase/app";
 import "firebase/storage";
 import FileUploader from "react-firebase-file-uploader";
 
+function importAll(r) {
+  return r.keys().map(r);
+}
+
+const imagesCouple = importAll(require.context('./imagesCouple', false, /\.(png|jpe?g|svg)$/));
+const imagesMemories = importAll(require.context('./imagesMemories', false, /\.(png|jpe?g|svg)$/));
+
 class Gallery extends Component {
   state = {
     avatar: "",
     isUploading: false,
     progress: 0,
-    avatarURL: ""
+    avatarURL: "",
+    imagesCouple: imagesCouple,
+    imagesMemories: imagesMemories
   };
  
   handleUploadStart = () => this.setState({ isUploading: true, progress: 0 });
@@ -73,50 +82,38 @@ class Gallery extends Component {
           </Col>
         </Row>
         <Row>
+          <Col id="titlecarousel">The Betrothed</Col>
+        </Row>
+        <Row>
           <Col sm={{ span: 8, offset: 2 }}>
             <Carousel id="carousel">
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src={require("./chus.jpg")}
-                  alt="Chus"
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src={require("./toscanos.jpg")}
-                  alt="Toscanos"
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src={require("./globe.png")}
-                  alt="Globe"
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src={require("./snowboarding.jpg")}
-                  alt="Snowboarding"
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src={require("./dopeymedals.jpg")}
-                  alt="DopeyMedals"
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src={require("./christinewayback.jpg")}
-                  alt="ChristineWayBack"
-                />
-              </Carousel.Item>
+              {this.state.imagesCouple.map(image => (
+                <Carousel.Item key={image}>
+                  <img
+                    className="d-block w-100"
+                    src={image}
+                    alt={image}
+                  />
+                </Carousel.Item>
+              ))}
+            </Carousel>
+          </Col>
+        </Row>
+        <Row>
+          <Col id="titlecarousel">Memories</Col>
+        </Row>
+        <Row>
+          <Col sm={{ span: 8, offset: 2 }}>
+            <Carousel id="carousel">
+              {this.state.imagesMemories.map(image => (
+                <Carousel.Item key={image}>
+                  <img key={image}
+                    className="d-block w-100"
+                    src={image}
+                    alt={image}
+                  />
+                </Carousel.Item>
+              ))}
             </Carousel>
           </Col>
         </Row>

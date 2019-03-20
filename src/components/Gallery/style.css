@@ -1,7 +1,7 @@
 #gallery {
   background-image: linear-gradient(120deg, steelblue 0%, skyblue 40%, white 100%);
   text-align: center;
-  padding-bottom: 140px;
+  padding-bottom: 60px;
 }
 
 #titlegallery {
@@ -19,7 +19,6 @@
 #uploadedimg {
   padding-bottom: 20px;
   max-width: 320px;
-  
 }
 
 #fileselect {
@@ -27,9 +26,15 @@
   width: 80%;
 }
 
+#titlecarousel {
+  padding-top: 60px;
+  padding-bottom: 20px;
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.5em;
+}
+
 #carousel {
   position: relative;
-  top: 60px;
   width: auto;
   height: auto;
   border: 10px solid steelblue;
