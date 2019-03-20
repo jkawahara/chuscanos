@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "49089572ce749aa4193a660439f533d0",
-    "url": "/static/media/Damian Chris and me.49089572.jpg"
+    "revision": "0d5b406134bbd1153a3f9b5cdeddf16d",
+    "url": "/static/media/442JPG.0d5b4061.jpg"
   },
   {
-    "revision": "e1b78053627b50b9433f",
+    "revision": "1d1b09cf852e42ed063f",
     "url": "/static/css/main.5085fea8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/media/registry.fd67ddc1.png"
   },
   {
-    "revision": "a1df5fb62ce61e088de9",
-    "url": "/static/js/2.a1df5fb6.chunk.js"
+    "revision": "3611261b280911fd923e",
+    "url": "/static/js/2.3611261b.chunk.js"
   },
   {
     "revision": "2a5cac3eeb1491a173b7f145babec4fe",
@@ -68,6 +68,10 @@ self.__precacheManifest = [
     "url": "/static/media/IMG_0165JPG.91dfd84d.jpg"
   },
   {
+    "revision": "32b49c5589e8758d98dacd926ac22b88",
+    "url": "/static/media/Sal's bday.32b49c55.jpg"
+  },
+  {
     "revision": "5e12b64989a2b9ff250db6778d9cf2fc",
     "url": "/static/media/chus.5e12b649.jpg"
   },
@@ -92,12 +96,12 @@ self.__precacheManifest = [
     "url": "/static/media/332JPG.9f523a30.jpg"
   },
   {
-    "revision": "0d5b406134bbd1153a3f9b5cdeddf16d",
-    "url": "/static/media/442JPG.0d5b4061.jpg"
+    "revision": "1d1b09cf852e42ed063f",
+    "url": "/static/js/main.1d1b09cf.chunk.js"
   },
   {
-    "revision": "e1b78053627b50b9433f",
-    "url": "/static/js/main.e1b78053.chunk.js"
+    "revision": "49089572ce749aa4193a660439f533d0",
+    "url": "/static/media/Damian Chris and me.49089572.jpg"
   },
   {
     "revision": "abc8a71f1af92243b8d12a100fb7db33",
@@ -184,11 +188,11 @@ self.__precacheManifest = [
     "url": "/static/media/dopey.2746f7fd.jpg"
   },
   {
-    "revision": "a1df5fb62ce61e088de9",
+    "revision": "3611261b280911fd923e",
     "url": "/static/css/2.69f013bb.chunk.css"
   },
   {
-    "revision": "ca5e02c72bb75dca549f1ff3c819264f",
+    "revision": "3b9ef1317f05dcc4b16e375107c57caa",
     "url": "/index.html"
   }
 ];
