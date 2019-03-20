@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/Damian Chris and me.49089572.jpg"
   },
   {
-    "revision": "81201255268382900edf",
-    "url": "/static/css/main.7212b932.chunk.css"
+    "revision": "23799f9f14fc36829790",
+    "url": "/static/css/main.511fbcbe.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -92,8 +92,8 @@ self.__precacheManifest = [
     "url": "/static/media/442JPG.0d5b4061.jpg"
   },
   {
-    "revision": "81201255268382900edf",
-    "url": "/static/js/main.81201255.chunk.js"
+    "revision": "23799f9f14fc36829790",
+    "url": "/static/js/main.23799f9f.chunk.js"
   },
   {
     "revision": "abc8a71f1af92243b8d12a100fb7db33",
@@ -184,7 +184,7 @@ self.__precacheManifest = [
     "url": "/static/css/2.69f013bb.chunk.css"
   },
   {
-    "revision": "2484eef4380b2e4c357caa389b0f2a3a",
+    "revision": "b55720d3681b8da4df71d8b91736b7fc",
     "url": "/index.html"
   }
 ];
