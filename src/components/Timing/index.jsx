@@ -1,7 +1,5 @@
 // *** Timing component
 import React, { Component } from 'react';
-import "./style.css";
-import { Container, Row, Col } from "react-bootstrap";
 import { oneOfType, func, instanceOf, string } from 'prop-types';
 import { momentObj } from 'react-moment-proptypes';
 import formatDate from './format-date';
