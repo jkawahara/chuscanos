@@ -1,12 +1,12 @@
 # Live Link to [Chuscanos](https://chuscanos.com)
 ### 1. Why / Background
-  * Chuscanos is a static website for wedding communications.
+  * Chuscanos is a static web page for wedding communications.
  ### 2. What / Objectives / User Stories
   * **Technologies**, design through deployment of the application:
     * Client-side: React.js library for component based user interface; Bootstrap framework for HTML/CSS
     * Server-side: N/A
     * Cloud: Firebase DB for realtime data persistence and storage, Formspree for form submissions
-  * **Story Map** ![storymap.png](client/public/assets/readmelinks/storymap.png "Story Map")
+  * **Story Map** ![storymap.png](public/assets/readmelinks/storymap.png "Story Map")
  ### 3. How / Design Description
   * **Project Scope** fit well into [Agile methodology with Scrum and Kanban frameworks](https://en.wikipedia.org/wiki/Agile_software_development). Due to limited scope and solo development, GitHub's built-in tools were not used to support project execution:
     * Projects: Kanban board for documenting user stories and overall progress
@@ -26,7 +26,7 @@
         * Footer ![footer.png](public/assets/readmelinks/footer.png "footer")
   * **Design Description**
     * Architecture ![architecture.png](public/assets/readmelinks/architecture.png "architecture") - not included
-    * Data Flow ![dataflow.png](public/assets/readmelinks/dataflow.png "dataflow") - not included
+    * Data Flow ![dataflow.png](client/public/assets/readmelinks/dataflow.png "dataflow") - not included
     * Model Setup - N/A
     * View Setup (client-side: /public (index.html), /src (index.js, App.js, /components)
       * Use React.js to design App class and required components including state and props to pass to #root element of index.html
