@@ -11,7 +11,7 @@
   * **Project Scope** fit well into [Agile methodology with Scrum and Kanban frameworks](https://en.wikipedia.org/wiki/Agile_software_development). Due to limited scope and solo development, GitHub's built-in tools were not used to support project execution:
     * Projects: Kanban board for documenting user stories and overall progress
     * Issues: Issue tracking for user stories, features and bug report
-  * **Functionality** - refer to [video of application user flow](public/assets/readmelinks/appuserflow.webm)
+  * **Functionality** - refer to [video of application user flow](public/assets/readmelinks/appuserflow.webm) - not included
     * View Setup /src
       * Configure React library for single page application leveraging the following reusable components /components
         * Nav ![nav.png](public/assets/readmelinks/nav.png "nav")
@@ -25,8 +25,8 @@
         * RSVP ![rsvp.png](public/assets/readmelinks/rsvp.png "rsvp")
         * Footer ![footer.png](public/assets/readmelinks/footer.png "footer")
   * **Design Description**
-    * Architecture - not included
-    * Data Flow - not included
+    * Architecture ![architecture.png](public/assets/readmelinks/architecture.png "architecture") - not included
+    * Data Flow ![dataflow.png](public/assets/readmelinks/dataflow.png "dataflow") - not included
     * Model Setup - N/A
     * View Setup (client-side: /public (index.html), /src (index.js, App.js, /components)
       * Use React.js to design App class and required components including state and props to pass to #root element of index.html
@@ -87,10 +87,17 @@
         * Installs required node packages, referring to the included dependencies in respective package.json files and creates required node packages in /node_modules and creates or updates the respective package-lock.json, yarn.lock files.
       * yarn start (react-scripts start)
         * Runs the app in development mode at http://localhost:3000 (React)
-      * yarn run deploy (gh-pages -d build)
+      * yarn run deploy (react-scripts build, gh-pages -d build)
         * Runs production build for gh-pages deployment
   * **Running the tests:**
     * Unit testing was informally executed
+    * Performance was verified using [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fchuscanos.com%2F)
+      * Mobile average speed score [70 out of 100](public/assets/readmelinks/mobile_pagespeed_insights.pdf)
+      * Desktop fast speed score [95 out of 100](public/assets/readmelinks/desktop_pagespeed_insights.pdf)
+    * Accessibility was verified using [Total Validator](https://www.totalvalidator.com/)
+      * WCVAG2 warning: [W869](https://www.totalvalidator.com/support/reference/wai2.html)
+      * WCAG1 error: [P800](https://www.totalvalidator.com/support/reference/section508.html)
+      * WCAG1 warning: [W820](https://www.totalvalidator.com/support/reference/wai1.html)
   * **Deployment:**
     * App deployed on [GitHub Pages](https://chuscanos.com)
  ## Versioning
