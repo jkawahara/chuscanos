@@ -1,7 +1,7 @@
 // *** Timing component
 import React, { Component } from 'react';
-import "./style.css";
 import { Container, Row, Col } from "react-bootstrap";
+import "./style.css";
 import moment from 'moment';
 
 class Timing extends Component {

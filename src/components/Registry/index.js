@@ -1,7 +1,7 @@
 // *** Story component
 import React, { Component } from 'react';
-import "./style.css";
 import { Container, Row, Col} from "react-bootstrap";
+import "./style.css";
 
 class Registry extends Component {
   render() {

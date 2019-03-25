@@ -1,7 +1,7 @@
 // *** Story component
-import React, { Component } from 'react';
-import "./style.css";
+import React, { Component } from "react";
 import { Container, Row, Col} from "react-bootstrap";
+import "./style.css";
 
 class Events extends Component {
   render() {

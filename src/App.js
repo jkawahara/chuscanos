@@ -1,5 +1,7 @@
 // Single Page Application
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import "./App.css";
 import Nav from "./components/Nav";
 import Timing from "./components/Timing";
 import Splash from "./components/Splash";
@@ -8,12 +10,8 @@ import Events from "./components/Events";
 import Guestbook from "./components/Guestbook";
 import Gallery from "./components/Gallery";
 import Registry from "./components/Registry";
-import Footer from "./components/Footer";
-
 import Rsvp from "./components/Rsvp";
-// import Footer from "./components/Footer";
-import "./App.css";
-import { Container, Row, Col } from "react-bootstrap";
+import Footer from "./components/Footer";
 
 class App extends Component {
   render() {

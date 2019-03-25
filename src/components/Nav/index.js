@@ -1,8 +1,7 @@
 // *** Navigation for SPA to jump quickly to specific section
 import React, { Component } from 'react';
+import { Navbar, Nav } from "react-bootstrap";
 import "./style.css";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
 
 class Navigation extends Component {
   render () {

@@ -1,7 +1,7 @@
 // *** RSVP component
 import React, { Component } from 'react';
-import "./style.css";
 import { Container, Row, Col, Form, Button} from "react-bootstrap";
+import "./style.css";
 
 class Rsvp extends Component {
   render() {

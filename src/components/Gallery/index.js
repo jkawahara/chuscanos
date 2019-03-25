@@ -1,17 +1,11 @@
 // *** Story component
-import React, { Component } from 'react';
-import "./style.css";
+import React, { Component } from "react";
 import { Container, Row, Col, Carousel, Form } from "react-bootstrap";
-import firebase from "firebase/app";
+import "./style.css";
+import firebase from "firebase/app"; // Refer to /src/components/Guestbook/firebase.js for Firebase config
 import "firebase/storage";
 import FileUploader from "react-firebase-file-uploader";
-
-function importAll(r) {
-  return r.keys().map(r);
-}
-
-const imagesCouple = importAll(require.context('./imagesCouple', false, /\.(png|jpe?g|svg)$/));
-const imagesMemories = importAll(require.context('./imagesMemories', false, /\.(png|jpe?g|svg)$/));
+import { imagesCouple, imagesMemories } from "./import_images";
 
 class Gallery extends Component {
   state = {
