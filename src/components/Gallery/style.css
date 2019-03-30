@@ -44,3 +44,15 @@
 .carousel .carousel-indicators {
   display: none;
 }
+
+@media only screen and (max-width: 768px) {
+  #fileselect {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #fileselect {
+    font-size: 12px;
+  }
+}
