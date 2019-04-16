@@ -5,7 +5,7 @@ import "./App.css";
 import Nav from "./components/Nav";
 import Timing from "./components/Timing";
 import Splash from "./components/Splash";
-import Story from "./components/Story";
+// import Story from "./components/Story";
 import Events from "./components/Events";
 import Guestbook from "./components/Guestbook";
 import Gallery from "./components/Gallery";
@@ -32,11 +32,11 @@ class App extends Component {
             <Splash />
           </Col>
         </Row>
-        <Row>
+        {/* <Row>
           <Col>
             <Story />
           </Col>
-        </Row>
+        </Row> */}
         <Row>
           <Col>
             <Events />
