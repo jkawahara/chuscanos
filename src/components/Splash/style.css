@@ -5,8 +5,15 @@
   background-position-y: 250px;
   background-repeat: no-repeat;
   width: auto;
-  height: 1000px;
+  height: 1100px;
   text-align: center;
+}
+
+#annivsplash {
+  padding-top: 60px;
+  font-family: 'Great Vibes', cursive;
+  font-weight: 400;
+  font-size: 2em;
 }
 
 #titlesplash {

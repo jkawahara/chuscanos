@@ -4,6 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./App.css";
 import Nav from "./components/Nav";
 import Timing from "./components/Timing";
+// import Anniv from "./components/Anniv";
 import Splash from "./components/Splash";
 // import Story from "./components/Story";
 import Events from "./components/Events";
@@ -25,6 +26,11 @@ class App extends Component {
         <Row>
           <Col>
             <Timing />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            {/* <Anniv /> */}
           </Col>
         </Row>
         <Row>

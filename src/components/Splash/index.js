@@ -7,12 +7,20 @@ class Splash extends Component {
   render() {
     return (
       <Container id="splash">
+        {/* <Row>
+          
+        </Row> */}
         <Row>
-          <Col id="titlesplash">
+          <Col id="annivsplash">
+            Congrats,<br></br>
+            Christine & Salvador,<br></br>
+            Happy 1 Year Anniversary!<br></br>
+          </Col>
+          {/* <Col id="titlesplash">
             Christine Joyce Chu<br></br>
             and<br></br>
             Salvador Nu&ntilde;o Toscano
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     );
