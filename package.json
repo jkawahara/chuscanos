@@ -5,6 +5,7 @@
   "dependencies": {
     "bootstrap": "^4.4.1",
     "firebase": "^7.14.0",
+    "fireworks": "^2.2.5",
     "fs": "^0.0.1-security",
     "gh-pages": "^2.2.0",
     "jquery": "^3.5.0",
@@ -37,6 +38,7 @@
   ],
   "homepage": "https://chuscanos.com",
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
     "js-levenshtein": "^1.1.6"
   }
 }
