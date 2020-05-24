@@ -35,5 +35,8 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage": "https://chuscanos.com"
+  "homepage": "https://chuscanos.com",
+  "devDependencies": {
+    "js-levenshtein": "^1.1.6"
+  }
 }
