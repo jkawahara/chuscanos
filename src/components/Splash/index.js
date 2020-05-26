@@ -11,16 +11,14 @@ class Splash extends Component {
           
         </Row> */}
         <Row>
-          <Col id="annivsplash">
+          <Col id="titlesplash">
             Congrats,<br></br>
             Christine & Salvador,<br></br>
-            Happy 1 Year Anniversary!<br></br>
-          </Col>
-          {/* <Col id="titlesplash">
-            Christine Joyce Chu<br></br>
+            Happy 1 Year Anniversary!
+            {/* Christine Joyce Chu<br></br>
             and<br></br>
-            Salvador Nu&ntilde;o Toscano
-          </Col> */}
+            Salvador Nu&ntilde;o Toscano */}
+          </Col>
         </Row>
       </Container>
     );
