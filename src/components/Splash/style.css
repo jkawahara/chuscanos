@@ -9,6 +9,7 @@
   text-align: center;
 }
 
+<<<<<<< HEAD
 #annivsplash {
   padding-top: 60px;
   font-family: 'Great Vibes', cursive;
@@ -16,6 +17,16 @@
   font-size: 2em;
 }
 
+||||||| merged common ancestors
+=======
+#annivsplash {
+  padding-top: 70px;
+  font-family: 'Great Vibes', cursive;
+  font-weight: 580;
+  font-size: 2.5em;
+}
+
+>>>>>>> 5a7affabb7316fee1c5ae83929663670cec721c0
 #titlesplash {
   padding-top: 60px;
   font-family: 'Great Vibes', cursive;
