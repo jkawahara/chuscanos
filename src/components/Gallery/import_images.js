@@ -5,5 +5,6 @@ function importAll(r) {
 }
 
 // require.context(), passing in directory to search, flag indicating whether subdirectories should be searched too and regular expression to match files against
+export const imagesAnniv = importAll(require.context("./images_anniv", false, /\.(png|jpe?g|svg)$/));
 export const imagesCouple = importAll(require.context("./images_couple", false, /\.(png|jpe?g|svg)$/));
 export const imagesMemories = importAll(require.context("./images_memories", false, /\.(png|jpe?g|svg)$/));

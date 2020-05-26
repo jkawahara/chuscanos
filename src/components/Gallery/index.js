@@ -5,7 +5,7 @@ import "./style.css";
 import firebase from "firebase/app"; // Refer to /src/components/Guestbook/firebase.js for Firebase config
 import "firebase/storage";
 import FileUploader from "react-firebase-file-uploader";
-import { imagesCouple, imagesMemories } from "./import_images";
+import { imagesAnniv, imagesCouple, imagesMemories } from "./import_images";
 
 class Gallery extends Component {
   state = {
@@ -13,6 +13,7 @@ class Gallery extends Component {
     isUploading: false,
     progress: 0,
     avatarURL: "",
+    imagesAnniv: imagesAnniv,
     imagesCouple: imagesCouple,
     imagesMemories: imagesMemories
   };
@@ -73,6 +74,24 @@ class Gallery extends Component {
                 </Col>
               </Row>
             </Form>
+          </Col>
+        </Row>
+        <Row>
+          <Col id="titlecarousel">Anniversaries</Col>
+        </Row>
+        <Row>
+          <Col sm={{ span: 8, offset: 2 }}>
+            <Carousel id="carousel">
+              {this.state.imagesAnniv.map(image => (
+                <Carousel.Item key={image}>
+                  <img
+                    className="d-block w-100"
+                    src={image}
+                    alt={image}
+                  />
+                </Carousel.Item>
+              ))}
+            </Carousel>
           </Col>
         </Row>
         <Row>
