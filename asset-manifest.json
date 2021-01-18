@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.333d6d4f.chunk.css",
-    "main.js": "/static/js/main.27aac605.chunk.js",
-    "main.js.map": "/static/js/main.27aac605.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.76f06614.js",
-    "runtime-main.js.map": "/static/js/runtime-main.76f06614.js.map",
-    "static/css/2.0e1a4c73.chunk.css": "/static/css/2.0e1a4c73.chunk.css",
-    "static/js/2.fc527567.chunk.js": "/static/js/2.fc527567.chunk.js",
-    "static/js/2.fc527567.chunk.js.map": "/static/js/2.fc527567.chunk.js.map",
+    "main.js": "/static/js/main.e3accfca.chunk.js",
+    "main.js.map": "/static/js/main.e3accfca.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.990d77d9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.990d77d9.js.map",
+    "static/css/2.c11e63b2.chunk.css": "/static/css/2.c11e63b2.chunk.css",
+    "static/js/2.7ae77168.chunk.js": "/static/js/2.7ae77168.chunk.js",
+    "static/js/2.7ae77168.chunk.js.map": "/static/js/2.7ae77168.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.79fcfd8fc4804dc0b32a8bdc1405abac.js": "/precache-manifest.79fcfd8fc4804dc0b32a8bdc1405abac.js",
+    "precache-manifest.17bf94319d6763aca1436ae7b1b9d75a.js": "/precache-manifest.17bf94319d6763aca1436ae7b1b9d75a.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.0e1a4c73.chunk.css.map": "/static/css/2.0e1a4c73.chunk.css.map",
+    "static/css/2.c11e63b2.chunk.css.map": "/static/css/2.c11e63b2.chunk.css.map",
     "static/css/main.333d6d4f.chunk.css.map": "/static/css/main.333d6d4f.chunk.css.map",
-    "static/js/2.fc527567.chunk.js.LICENSE.txt": "/static/js/2.fc527567.chunk.js.LICENSE.txt",
-    "static/media/1yranniv.jpg": "/static/media/1yranniv.a1a80e30.jpg",
+    "static/js/2.7ae77168.chunk.js.LICENSE.txt": "/static/js/2.7ae77168.chunk.js.LICENSE.txt",
+    "static/media/1yranniv-lakemcd.jpg": "/static/media/1yranniv-lakemcd.a1a80e30.jpg",
     "static/media/332JPG.jpg": "/static/media/332JPG.9f523a30.jpg",
     "static/media/442JPG.jpg": "/static/media/442JPG.0d5b4061.jpg",
     "static/media/Damian Chris and me.jpg": "/static/media/Damian Chris and me.49089572.jpg",
@@ -52,15 +52,14 @@
     "static/media/dopeymedals.jpg": "/static/media/dopeymedals.db8ea2da.jpg",
     "static/media/style.css": "/static/media/splashpic.4ef900dd.jpg",
     "static/media/globe.png": "/static/media/globe.2cfc1b87.png",
-    "static/media/lakemcd.jpg": "/static/media/lakemcd.a1a80e30.jpg",
     "static/media/snowboarding.jpg": "/static/media/snowboarding.93d29b60.jpg",
     "static/media/toscanos.jpg": "/static/media/toscanos.d7b31af1.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.76f06614.js",
-    "static/css/2.0e1a4c73.chunk.css",
-    "static/js/2.fc527567.chunk.js",
+    "static/js/runtime-main.990d77d9.js",
+    "static/css/2.c11e63b2.chunk.css",
+    "static/js/2.7ae77168.chunk.js",
     "static/css/main.333d6d4f.chunk.css",
-    "static/js/main.27aac605.chunk.js"
+    "static/js/main.e3accfca.chunk.js"
   ]
 }
