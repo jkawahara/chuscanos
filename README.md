@@ -1,4 +1,4 @@
-# Live Link to [Chuscanos](https://chuscanos.com)
+# Live Link to Chuscanos- no longer active
 ### 1. Why / Background
   * Chuscanos is a static web page for wedding communications.
  ### 2. What / Objectives / User Stories
